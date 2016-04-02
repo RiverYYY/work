@@ -137,7 +137,7 @@ ol, ul {
     height: 500px;
     width: 100%;
     background-size: cover;
-    background: url(../img/banner-3.png) repeat center center;
+    background: url(../img/banner-3.png) no-repeat center center;
 }
 
 #banner-container {
