@@ -1,0 +1,123 @@
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+	font-family: "SimSun", Arial, sans-serif;
+	font-size: 12px;
+	background-color: #3D86D9;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* HEADER & FOOTER ***************************/
+#header {
+    position: relative;
+    z-index: 50;
+    background-color: #000;
+}
+
+#hd-container {
+    position: relative;
+    height: 80px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#hd-container h1 {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#hd-container ul {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+
+#hd-container li {
+    display: inline;
+    padding-left: 28px;
+    font-size: 16px;
+}
+
+#header > a {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    height: 34px;
+    width: 40px;
+    text-indent: -99999px;
+    background: url(../img/icon-github.png) center center no-repeat;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+}
+
+#footer-nav > ul {
+    border-bottom: 1px solid #3D86D9;
+}
+
+#footer-nav li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+#footer-lists dl {
+    display: inline-block;
+    padding: 50px 70px 100px 70px;
+    text-align: center;
+    line-height: 170%;
+}
+
+#footer-lists dt {
+    padding-bottom: 20px;
+}
+
+#footer > span > small {
+    display: block;
+    padding-bottom: 20px;
+}
+
+#footer > span > a {
+    display: inline-block;
+    margin: 0 auto;
+    height: 34px;
+    width: 40px;
+    text-indent: -99999px;
+    background: url(../img/icon-github.png) center center no-repeat;
+}
