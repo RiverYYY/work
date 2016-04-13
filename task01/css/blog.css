@@ -164,15 +164,18 @@
 }
 
 #date {
+	padding-top: 10px;
 	width: 260px;
-	height: 200px;
+	height: 190px;
 	background-color: #FFF;
 }
 
 #date table {
-	padding: 15px;
-	width: 260px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 220px;
 	text-align: center;
+	border-collapse: collapse;
 }
 
 #date tr {
@@ -181,10 +184,11 @@
 
 #date th {
 	padding-top: 5px;
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid #999;
 }
 
-#caption {	
+#caption {
+	letter-spacing: 2px;
 	font-weight: bold;
 }
 
