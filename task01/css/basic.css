@@ -82,6 +82,7 @@ ol, ul {
 }
 
 #footer {
+    clear: left;
     width: 100%;
     text-align: center;
     color: #FFF;
