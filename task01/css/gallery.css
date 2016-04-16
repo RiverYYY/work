@@ -1,0 +1,102 @@
+
+/*清除浮动*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#g-main {
+	position: relative;
+	max-width: 980px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#g-tab li {
+	display: inline-block;
+	border-top: 6px solid #000;
+	border-right: 2px solid #3D86D9;
+	padding: 10px 10px 10px 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#g-wall {
+	float: left;
+	width: 710px;
+	height: 100%;
+	padding-bottom: 50px;
+	margin-right: 10px;
+	margin-bottom: 100px;
+	background-color: #FFF; 
+}
+
+.g-pic {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 160px;
+	height: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+#g-pic {
+	margin: 15px;
+	column-count: 4;
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-gap: 10px;
+	-webkit-column-gap: 10px;
+	-moz-column-gap: 10px;
+}
+
+.g-pic img {
+	width: 100%;
+}
+
+.g-text {
+	margin-top: -10px;
+	height: 100%;
+	background-color: #000;
+}
+
+.g-text p {
+	padding: 10px;
+	line-height: 150%;
+	color: #FFF;
+}
+
+
+/* siderbar */
+#g-siderbar {
+	float: left;
+}
+
+#search {
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 240px;
+	height: 60px;	
+	background-color: #FFF;
+}
+
+#search-input {
+	width: 170px;
+	height: 40px;
+}
+
+#go-input {
+	width: 50px;
+	height: 40px;
+}
+
+#rank {
+	margin-top: 10px;
+	width: 260px;
+	height: 200px;
+	background-color: #FFF;
+}
